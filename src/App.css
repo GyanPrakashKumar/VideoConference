@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/* font-family: 'Patrick Hand', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Patric Hand', cursive;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home-page form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+.home-page form div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-page form label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.home-page form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.home-page form button {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.home-page form button:hover {
+  background-color: #ccc;
+}
+
+.room-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+  .home-page form {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home-page form input {
+    width: 250px;
+  }
+
+  .home-page form button {
+    width: 250px;
+  }
+}
